@@ -1,0 +1,13 @@
+package com.jojo.userService;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ResponseDto {
+    private AddressDto address;
+    private UserDto user;
+}
